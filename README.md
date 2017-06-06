@@ -1,12 +1,14 @@
 # ATM
 
-# Create an ATM Application
+## Create an ATM Application
 
 Create an application that will simulate an ATM's operations. This will use all your Object-Oriented skills in one big project. Read the documentation below first and plan your work to avoid rewriting it.
 
 Your project must include the following classes or interfaces:
 
-ATM - contains methods to prompt user and receive input from the user. The only class in which the System.out.printtln statements are allowed in is the ATM class. The ATM class must not know any information about the user. It will simply create an Account class and print information from the Account class.
+ATM - contains methods to prompt user and receive input from the user. 
+
+The ATM class must not know any information about the user. It will simply create an Account class and print information from the Account class.
 
 The iATM interface must define the methods that need to be implemented but the interface doesn't actually contain the implementation.
 
@@ -14,7 +16,7 @@ The ATM class will allow the user to make a deposit, make a withdraw or check th
 
 Account class - contains the account number, user name, balance,PIN. Deposits and withdraws must update the balance.
 
-The main method will simply call the ATM class and the  ATM class will  interact with the user and with the Account class. There should be MINIMAL logic in the main method.
+The main method should be in its own class (probably called ATMApplication) and will simply call the ATM class. The  ATM class will  interact with the user and with the Account class. The only class in which the System.out.printtln statements are allowed in is the class with the main method (probably ATMApplication). There should be MINIMAL logic in the main method.
 
 The screen should print out just like the ATMs you've used in real life. It should prompt you to enter an account number (since we can't insert the card) and enter your PIN.
 
