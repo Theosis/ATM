@@ -18,6 +18,72 @@ public class ATM implements iATM {
 		
 		return validCode;
 	}
+
+	@Override
+	public void clearScreen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String welcomeUser() {
+		// TODO Auto-generated method stub
+		return "Welcome!";
+	}
+
+	@Override
+	public long inputAcctNum() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean inputPin() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void freezeAcct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int inputMenu() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void makeDeposit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeWithdrawal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void checkBalance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayBalance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void printReceipt() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
