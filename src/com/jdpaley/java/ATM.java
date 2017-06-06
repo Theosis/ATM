@@ -28,7 +28,7 @@ public class ATM implements iATM {
 	@Override
 	public String welcomeUser() {
 		// TODO Auto-generated method stub
-		return "Welcome!";
+		return "Welcome!\n\n";
 	}
 
 	@Override

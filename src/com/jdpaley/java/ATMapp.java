@@ -20,11 +20,12 @@ public class ATMapp {
 		//
 		//Let's have fun - this is what we have:
 		ATM atm = new ATM();
+		Printables receipt = new Printables();
 //			public boolean validPIN();
 //			public int validAcct(); //returns 0 if invalid, 1 if valid, 2 if pin-frozen
 //			
 //			public void clearScreen();
-	println( ATM.welcomeUser() );
+	println( atm.welcomeUser() );
 //			public long inputAcctNum();
 //			public boolean inputPin();
 //			public void freezeAcct();
@@ -34,7 +35,7 @@ public class ATMapp {
 //			public void makeWithdrawal();
 //			public void checkBalance();
 //			public void displayBalance();
-	println(Receipt.TransactionSummary());
+	println(receipt.TransactionSummary());
 		 
 	
 

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=MySQL Workbench
+Icon=mysql-workbench
+URL=/usr/share/applications/mysql-workbench.desktop

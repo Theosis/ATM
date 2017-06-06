@@ -3,7 +3,7 @@ package com.jdpaley.java;
 public class Printables extends Receipt {
 	
 	@Override
-	public String TransactionSummary() {
+	public  String TransactionSummary() {
 		//Does the actual pretty-printing of the receipt.
 		
 		String ticket = 
