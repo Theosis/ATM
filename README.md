@@ -1,5 +1,4 @@
 # ATM
-
 ## Create an ATM Application
 
 Create an application that will simulate an ATM's operations. This will use all your Object-Oriented skills in one big project. Read the documentation below first and plan your work to avoid rewriting it.
