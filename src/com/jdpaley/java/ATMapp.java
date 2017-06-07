@@ -8,7 +8,7 @@ public class ATMapp {
 	/**
 	 * @param args
 	 */
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		// USER & ACCT handling (through Account class)
 		//
 		//PLAN:
