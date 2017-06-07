@@ -22,7 +22,7 @@ public class Printables extends Receipt {
 "|      Thank you for banking with us   |\n"+
 "|            Have a coffee day         |\n"+
 "|                                      |\n"+
-"+--------------------------------------+\n";
+"+--------------------------------------+";
 		return ticket;
 			
 	}
